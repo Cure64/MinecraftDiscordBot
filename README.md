@@ -1,4 +1,4 @@
-https://cdn.discordapp.com/attachments/1127010798749888562/1276367519824871455/image.png?ex=66c94562&is=66c7f3e2&hm=95a7bfcba163583d7a2115b0e3eb674d8d051cf55c66b1462332d621e12b5f12&
+![image](https://github.com/user-attachments/assets/76adb78e-8326-4a27-a3fc-ca8bc37a1313)
 
 # MinecraftDiscordBot
 A Simple Discord Bot to show how many players are on your Minecraft Server
