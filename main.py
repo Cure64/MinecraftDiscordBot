@@ -3,17 +3,21 @@
 import discord
 from discord.ext import commands, tasks
 import requests
-import asyncio
+import os
 
-# Initialize the bot with the command prefix
+# Enable necessary intents
 intents = discord.Intents.default()
+intents.members = True  # Enable the Server Members Intent
+intents.message_content = True  # Enable Message Content Intent if needed
+
+# Initialize the bot with the command prefix and intents
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 # Replace with your Discord bot token
-DISCORD_TOKEN = 'Your-discord-bot-token'  # Replace with your actual token
+DISCORD_TOKEN = 'your-bot-token-here'  # Replace with your actual token
 
 # Define the Minecraft server IP
-MINECRAFT_SERVER_IP = "Your-Server-IP"
+MINECRAFT_SERVER_IP = "Your-servers-IP"
 
 @bot.event
 async def on_ready():
@@ -32,7 +36,7 @@ async def update_status():
         if data["online"]:
             current_players = data["players"]["online"]
             max_players = data["players"]["max"]
-            status_message = f'{current_players}/{max_players} on Your Server Name'
+            status_message = f'{current_players}/{max_players} on Minecraft'
         else:
             status_message = "Server Offline"
             
