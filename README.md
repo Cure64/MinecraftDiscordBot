@@ -4,8 +4,7 @@
 A Simple Discord Bot to show how many players are on your Minecraft Server
 
 # Instructions
-You can host this discord bot on your own computer or use a cheap vps like one on https://www.eugamehost.com/ or if your in the USA https://www.hetzner.com/cloud/
-
+You can host this discord bot on your own computer or use a cheap vps like one on https://us.ovhcloud.com/vps/ or if you live in the EU https://www.kernelhost.com/en/rent-a-vps
 # Windows
 On your windows pc make sure you have python installed
 Make a file and put your discord bot in that file
